@@ -1,5 +1,5 @@
 const dotenv = require('dotenv')
-const logger = require('./lib/logger');
+const logger = require('./lib/components/logger');
 const path = require('path');
 
 process.env.NODE_ENV = process.env.NODE_ENV || 'dev';
